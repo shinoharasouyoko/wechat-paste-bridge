@@ -1,0 +1,9 @@
+:root { font-family: "Microsoft YaHei", system-ui, sans-serif; color: #e9f3ea; background: #111713; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 760px; background: radial-gradient(circle at top right, #263f31, #111713 48%); }
+button { border: 0; border-radius: 10px; padding: 12px 18px; background: #9fe4ae; color: #112116; font: inherit; font-weight: 700; }
+button:disabled { cursor: not-allowed; background: #44534a; color: #b4c0b7; }
+.shell { max-width: 1100px; margin: 0 auto; padding: 56px; }
+.eyebrow { color: #c59666; letter-spacing: .16em; font-size: 12px; }
+h1 { margin: 8px 0; font-size: 34px; } h2 { margin-top: 0; }
+.import-card, .status-card { margin: 28px 0; padding: 24px; border: 1px solid #405345; border-radius: 16px; background: #172019cc; }
