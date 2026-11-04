@@ -1,6 +1,8 @@
+![Chatgpt生成微信公众号总编技能和一键粘贴工具](docs/wechat-editorial-banner.png)
+
 <div align="center">
 
-# 总编 Skill 与制作团队
+# Chatgpt生成微信公众号生成技能&一键黏贴发布工具
 
 ### 从一个想法，走到一篇可以复制的公众号图文
 
@@ -11,8 +13,6 @@
 [查看总编 Skill](skills/wechat-editorial-director/SKILL.md)　｜　[查看团队分工](skills/wechat-editorial-director/references/team.md)　｜　[查看排版示意](#排版前后示意)
 
 </div>
-
-![总编技能与公众号图文复制工具](docs/editorial-team-hero.png)
 
 图中的“一键发布草稿”指通过软件复制文章后，由使用者在编辑器中粘贴并手动保存草稿。
 
