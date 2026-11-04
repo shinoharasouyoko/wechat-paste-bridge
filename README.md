@@ -14,6 +14,24 @@ Windows 文章包复制工具。先用 Codex 等工具制作公众号图文，�
 
 截图展示的是软件界面和示例导入状态，不代表微信或秀米的最终粘贴效果。
 
+## 总编 Skill 与制作团队
+
+仓库提供 [公众号总编 Skill](skills/wechat-editorial-director/SKILL.md)，用于组织选题、写作、视觉、编辑器适配与总编统稿。环境支持且允许多智能体时可分派角色；否则由当前智能体依次完成这些职责。
+
+将 `skills/wechat-editorial-director` 整个文件夹复制到本机的 `~/.codex/skills/`，重新打开 Codex 后，可输入：
+
+```text
+使用 $wechat-editorial-director，为我制作一篇公众号文章，并导出文章包。
+```
+
+查看[周末城市生活示例](examples/weekend-city)：`before.md` 是排版前文字，`article.html` 是排版后的本地文章，`draft.json` 和 `images/` 可导入软件。示例中的虚构城市画面由 AI 生成，首图使用 GIF，双图作为一个图片组件；文字为可编辑正文。
+
+排版前后示意见下方图片。这是基于示例内容制作的静态说明图，不是微信或秀米中的截图，动效请在导入后的实际编辑器里由使用者检查。
+
+![首屏排版前后示意](docs/weekend-city/opening.png)
+
+![图文组合排版前后示意](docs/weekend-city/detail.png)
+
 ## 使用流程
 
 1. **生成文章**：让 Codex 根据素材撰写并排版，明确要求正文文字保持可编辑。使用你有权公开的图片。
