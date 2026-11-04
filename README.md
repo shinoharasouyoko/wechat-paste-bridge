@@ -24,13 +24,15 @@ Windows 文章包复制工具。先用 Codex 等工具制作公众号图文，�
 使用 $wechat-editorial-director，为我制作一篇公众号文章，并导出文章包。
 ```
 
-查看[周末城市生活示例](examples/weekend-city)：`before.md` 是排版前文字，`article.html` 是排版后的本地文章，`draft.json` 和 `images/` 可导入软件。示例中的虚构城市画面由 AI 生成，首图使用 GIF，双图作为一个图片组件；文字为可编辑正文。
+## 排版前后示意
 
-排版前后示意见下方图片。这是基于示例内容制作的静态说明图，不是微信或秀米中的截图，动效请在导入后的实际编辑器里由使用者检查。
+同一篇虚构的周末城市生活文字，可以根据主题采用不同的视觉节奏。下面分别展示网格杂志和蓝天拼贴两种方向。配图为 AI 生成的虚构场景。
 
-![首屏排版前后示意](docs/weekend-city/opening.png)
+这两张图是静态版式示意，不是微信或秀米的实际截图。GIF、底图与布局以目标编辑器中的实际显示为准。
 
-![图文组合排版前后示意](docs/weekend-city/detail.png)
+![白底网格杂志风格的排版前后示意](docs/weekend-city/grid-comparison.png)
+
+![蓝天照片拼贴风格的排版前后示意](docs/weekend-city/sky-comparison.png)
 
 ## 使用流程
 
